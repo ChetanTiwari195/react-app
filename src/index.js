@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './Styles/index.css';
 import App from './App';
+import Header from './Header';
+import Body from './MainContent';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <div className='page'>
     <App />
-  </React.StrictMode>
+    <Header />
+    <Body />
+    <Footer />
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function

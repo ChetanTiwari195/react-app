@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  /* width: 317px; */
+  padding-block: 44px;
+  padding-inline: 34rem;
+  background-color: #23252c;
+}
+
+.page {
+  background-color: #1a1b21;
+  border-radius: 10px;
+  width: 317px;
+}
